@@ -43,8 +43,8 @@ request(options,function(error,response,body){
             process.exit(0)
           }else{
             //console.log("\033[2J\033[0f");
-            console.log(1);
-            //open(urls[choices.indexOf(answers.post)]);
+            //console.log(1);
+            open(urls[choices.indexOf(answers.post)]);
           }
         });
   }else{
